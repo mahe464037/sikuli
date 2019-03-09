@@ -11,7 +11,7 @@ import org.sikuli.script.Screen;
 
 public class Sikulitest {
 	public static void main(String[] args) throws FindFailed, InterruptedException {
-       System.out.println("dffgdsf");
+       
 		System.setProperty("webdriver.chrome.driver","F:\\selenium software\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
